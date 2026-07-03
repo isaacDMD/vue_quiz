@@ -1,0 +1,108 @@
+{
+  "title": "Questionnaire sur les Films et Séries",
+  "minimum_score": 7,
+  "success_message": "Félicitations! Vous êtes un véritable cinéphile!",
+  "failure_message": "Dommage! Vous devriez regarder plus de films et séries.",
+  "questions": [
+    {
+      "question": "Dans quel film trouve-t-on le personnage de Jack Dawson?",
+      "choices": [
+        "Titanic",
+        "Le Seigneur des Anneaux",
+        "Inception",
+        "Avatar"
+      ],
+      "correct_answer": "Titanic"
+    },
+    {
+      "question": "Quelle série met en scène le personnage de Walter White?",
+      "choices": [
+        "Breaking Bad",
+        "Stranger Things",
+        "Game of Thrones",
+        "The Walking Dead"
+      ],
+      "correct_answer": "Breaking Bad"
+    },
+    {
+      "question": "Dans quel film Harry Potter rencontre-t-il pour la première fois Lord Voldemort?",
+      "choices": [
+        "Harry Potter à l'école des sorciers",
+        "Harry Potter et la Chambre des secrets",
+        "Harry Potter et le Prisonnier d'Azkaban",
+        "Harry Potter et la Coupe de feu"
+      ],
+      "correct_answer": "Harry Potter à l'école des sorciers"
+    },
+    {
+      "question": "Quel film de science-fiction réalisé par Christopher Nolan explore les rêves imbriqués ?",
+      "choices": [
+        "Interstellar",
+        "Inception",
+        "Tenet",
+        "Memento"
+      ],
+      "correct_answer": "Inception"
+    },
+    {
+      "question": "Dans la série 'Game of Thrones', de quelle maison la devise est-elle 'L'hiver vient' (Winter is Coming) ?",
+      "choices": [
+        "Maison Lannister",
+        "Maison Targaryen",
+        "Maison Stark",
+        "Maison Baratheon"
+      ],
+      "correct_answer": "Maison Stark"
+    },
+    {
+      "question": "Qui a réalisé le film classique de science-fiction 'Blade Runner' sorti en 1982 ?",
+      "choices": [
+        "Steven Spielberg",
+        "Ridley Scott",
+        "James Cameron",
+        "Stanley Kubrick"
+      ],
+      "correct_answer": "Ridley Scott"
+    },
+    {
+      "question": "Dans l'univers cinématographique Marvel (MCU), de quel pays fictif Black Panther est-il le roi ?",
+      "choices": [
+        "Le Wakanda",
+        "La Sokovie",
+        "L'Asgard",
+        "Le Zamunda"
+      ],
+      "correct_answer": "Le Wakanda"
+    },
+    {
+      "question": "Quelle série télévisée suit les aventures d'un groupe d'enfants dans la ville fictive de Hawkins en Indiana ?",
+      "choices": [
+        "Dark",
+        "Stranger Things",
+        "The Leftovers",
+        "Black Mirror"
+      ],
+      "correct_answer": "Stranger Things"
+    },
+    {
+      "question": "Quel acteur incarne le personnage du Joker dans le film 'The Dark Knight' (2008) ?",
+      "choices": [
+        "Joaquin Phoenix",
+        "Jared Leto",
+        "Heath Ledger",
+        "Jack Nicholson"
+      ],
+      "correct_answer": "Heath Ledger"
+    },
+    {
+      "question": "Quel film a remporté l'Oscar du meilleur film en 2020, devenant le premier film en langue étrangère à obtenir ce prix ?",
+      "choices": [
+        "Parasite",
+        "1917",
+        "Once Upon a Time... in Hollywood",
+        "Roma"
+      ],
+      "correct_answer": "Parasite"
+    }
+  ]
+}
