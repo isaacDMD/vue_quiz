@@ -24,10 +24,8 @@
     const emits = defineEmits(['answer'])
     const answer = ref(null)
     const hasAnswer = computed(() => answer.value !== null)
+    const randomChoices = computed(() => {})
 
-    watch(()=> props.question, () => {
-        answer.value = null
-    })
 </script>
 
 <style>
