@@ -15,15 +15,19 @@
 </template>
 
 <script setup>
-    import { computed, ref } from 'vue'
+    import { computed, ref, watch } from 'vue'
 
-    defineProps({
+    const props = defineProps({
         question : Object
     })
 
     const emits = defineEmits(['answer'])
     const answer = ref(null)
     const hasAnswer = computed(() => answer.value !== null)
+
+    watch(()=> props.question, () => {
+        answer.value = null
+    })
 </script>
 
 <style>
