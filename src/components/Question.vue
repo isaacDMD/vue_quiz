@@ -30,7 +30,7 @@ import Answer from './Answer.vue'
     const hasAnswer = computed(() => answer.value !== null)
     const randomChoices = computed(() => shuffleArray(props.question.choices))
     let timer 
-    const onAnswer = (e) => {
+    const onAnswer = () => {
         answer.value = e.currentTarget.value
         clearTimeout(timer)
 
@@ -41,7 +41,8 @@ import Answer from './Answer.vue'
 
     onMounted(() => {
         timer = setTimeout(() => {
-            emits('answer', answer.value)
+            answer.value = ''
+            onAnswer
         }, 5_000)
     })
 
